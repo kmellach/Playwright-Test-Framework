@@ -1,0 +1,1 @@
+Generated Registration Data: firstName=Kaycee&lastName=Romaguera&street=Wuckert+Lights&city=Binghamton&state=South+Carolina&ssn=86553&zipCode=98647&username=Kali49&password=2AmWo6uoJKFvPl2&repeatedPassword=2AmWo6uoJKFvPl2

@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3646","create user through registration portal","chromium","2025-12-31","passed","2025-12-31","User Registration and Login","parabank.spec.ts","",""
+"","5215","login with registered user","chromium","2025-12-31","passed","2025-12-31","User Registration and Login","parabank.spec.ts","",""

@@ -1,0 +1,1 @@
+[{"uid":"4957d8b59ff01c03","name":"create user through registration portal","time":{"start":1767173226614,"stop":1767173230260,"duration":3646},"status":"passed","severity":"normal"},{"uid":"9fab15ce4b1fc222","name":"login with registered user","time":{"start":1767173231700,"stop":1767173236915,"duration":5215},"status":"passed","severity":"normal"}]
