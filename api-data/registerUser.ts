@@ -35,7 +35,7 @@ export class Registration {
     formData.append('zipCode', faker.location.zipCode());
     formData.append('username', faker.internet.username());
     formData.append('password', faker.internet.password());
-    formData.append('confirmPassword', formData.get('password')!);
+    formData.append('repeatedPassword', formData.get('password')!);
 
     console.log('Generated Registration Data:', formData.toString());
 

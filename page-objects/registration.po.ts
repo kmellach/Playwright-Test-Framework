@@ -49,7 +49,7 @@ export class RegistrationPage {
     await this.state.fill(formData.get('state')!);
     await this.ssn.fill(formData.get('ssn')!);
     await this.zipCode.fill(formData.get('zipCode')!);
-    await this.confirmPassword.fill(formData.get('confirmPassword')!);
+    await this.confirmPassword.fill(formData.get('repeatedPassword')!);
     return formData;
     
   }

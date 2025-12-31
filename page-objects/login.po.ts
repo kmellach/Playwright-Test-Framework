@@ -14,11 +14,7 @@ export class LoginPage {
     this.page = page;
   }
 
-  public async fillLoginData(): Promise<void> {
-    const registrationPage = new Registration(this.page);
-     const formData = await registrationPage.generateRegistrationData()
-     await registrationPage.submitRegistration(formData); 
-
+  public async fillLoginData(formData: URLSearchParams): Promise<void> {
     console.log(`Username: ${formData.get('username')}, Password: ${formData.get('password')}`);
 
     await this.username.fill(formData.get('username')!);
