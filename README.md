@@ -17,11 +17,10 @@ Page-specific locators and actions are encapsulated inside page objects.
 Test scripts focus only on test logic, improving readability and maintainability.
 
 **Automated Test Scenarios**
-User Registration
-User Login
+1. User Registration
+2. User Login
 
 **Reporting**
-Allure Report
 Allure is used for generating detailed test execution reports.
 
 **Reports include:**
