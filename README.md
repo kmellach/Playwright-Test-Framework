@@ -24,16 +24,16 @@ Test scripts focus only on test logic, improving readability and maintainability
 Allure is used for generating detailed test execution reports.
 
 **Reports include:**
-Test status (Pass/Fail)
-Execution timeline
-Screenshots (on failure, if enabled)
-Step-wise execution details
+1. Test status (Pass/Fail)
+2. Execution timeline
+3. Screenshots (on failure, if enabled)
+4. Step-wise execution details
 
 **How to Run the Tests**
-Install Dependencies -- npm install 
-Run Playwright Tests -- npx playwright test
-Generate Allure Report -- allure generate ./allure-results --clean
-Open Allure Report -- allure open
+1. Install Dependencies -- npm install 
+2. Run Playwright Tests -- npx playwright test
+3. Generate Allure Report -- allure generate ./allure-results --clean
+4. Open Allure Report -- allure open
 
 **Key Features**
 1. Modular and scalable framework
