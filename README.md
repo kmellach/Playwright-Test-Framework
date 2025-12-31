@@ -1,0 +1,52 @@
+**Project Overview**
+
+This project is a UI test automation framework built using Playwright with TypeScript.
+It automates key user flows such as User Registration and User Login for a web application.
+
+The framework follows the Page Object Model (POM) design pattern to ensure clean code structure, reusability, and easy maintenance.
+Allure Reporting is integrated to generate detailed and visually rich test execution reports.
+
+**Prerequisites**
+1. Node.js (v16 or above)
+2. npm
+3. Allure Commandline installed
+
+**Page Object Model (POM)**
+Each application page is represented as a separate class.
+Page-specific locators and actions are encapsulated inside page objects.
+Test scripts focus only on test logic, improving readability and maintainability.
+
+**Automated Test Scenarios**
+User Registration
+User Login
+
+**Reporting**
+Allure Report
+Allure is used for generating detailed test execution reports.
+
+**Reports include:**
+Test status (Pass/Fail)
+Execution timeline
+Screenshots (on failure, if enabled)
+Step-wise execution details
+
+**How to Run the Tests**
+Install Dependencies -- npm install 
+Run Playwright Tests -- npx playwright test
+Generate Allure Report -- allure generate ./allure-results --clean
+Open Allure Report -- allure open
+
+**Key Features**
+1. Modular and scalable framework
+2. Clean separation of test logic and UI actions
+3. Reusable page objects
+4. Detailed test reports using Allure
+5. Easy to extend with additional test cases
+
+
+**Future Enhancements**
+1. Add more UI test scenarios
+2. Integrate CI/CD pipeline (Jenkins/GitHub Actions)
+3. Add cross-browser execution - In Progress
+4. Add API testing integration - In Progress
+
