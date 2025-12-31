@@ -1,3 +1,4 @@
+Note: I have designed this project with limited knowledge I have got from looking at Playwright official documentation. There are many more things and ideas I have and yet to develop them. Thanks for taking a look! 
 **Project Overview**
 
 This project is a UI test automation framework built using Playwright with TypeScript.
