@@ -2,7 +2,7 @@ Note: I have designed this project with limited knowledge I have got from lookin
 
 **Project Overview**
 
-This project is a UI test automation framework built using Playwright with TypeScript.
+This project is a UI test automation framework (for now) built using Playwright with TypeScript.
 It automates key user flows such as User Registration and User Login for a web application.
 
 The framework follows the Page Object Model (POM) design pattern to ensure clean code structure, reusability, and easy maintenance.
