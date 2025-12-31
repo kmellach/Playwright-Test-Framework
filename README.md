@@ -34,7 +34,7 @@ Allure is used for generating detailed test execution reports.
 **How to Run the Tests**
 1. Install Dependencies -- npm install 
 2. Run Playwright Tests -- npx playwright test
-3. Generate Allure Report -- allure generate ./allure-results --clean
+3. Generate Allure Report -- allure generate allure-results --clean -o allure-report
 4. Open Allure Report -- allure open
 
 **Key Features**
