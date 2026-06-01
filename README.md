@@ -46,11 +46,9 @@ HTML and Allure reporters are configured for test execution reporting.
 1. UI test coverage for registration and login flows
 2. API test coverage for registration and login
 3. Allure reporting configured
-4. Chromium browser execution enabled
+4. Cross browser execution enabled
 
 **Future Enhancements**
 1. Add more UI test scenarios
 2. Add additional API scenarios
 3. Integrate CI/CD pipeline (GitHub Actions / Jenkins)
-4. Expand cross-browser execution beyond Chromium
-
