@@ -6,7 +6,10 @@
     "playwright": "^1.50.1",
     "typescript": "^5.7.3"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:cross-browser": "npx playwright test --project=chromium,firefox,webkit"
+  },
   "dependencies": {
     "@faker-js/faker": "^9.5.0"
   }
