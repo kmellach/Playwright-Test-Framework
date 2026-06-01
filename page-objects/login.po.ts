@@ -17,10 +17,13 @@ export class LoginPage {
   public async fillLoginData(formData: URLSearchParams): Promise<void> {
     console.log(`Username: ${formData.get('username')}, Password: ${formData.get('password')}`);
 
+    await this.page.waitForLoadState('networkidle');
+    await this.username.waitFor({ state: 'visible', timeout: 10000 });
     await this.username.fill(formData.get('username')!);
-    await this.page.waitForTimeout(300);
+    await this.page.waitForTimeout(200);
+    await this.password.waitFor({ state: 'visible', timeout: 10000 });
     await this.password.fill(formData.get('password')!);
-    await this.page.waitForTimeout(300);
+    await this.page.waitForTimeout(200);
 
     // Debug: Check filled values
     const enteredUsername = await this.username.inputValue();
