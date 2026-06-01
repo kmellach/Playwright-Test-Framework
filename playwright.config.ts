@@ -31,7 +31,7 @@ use: {
   trace: 'on-first-retry',
   screenshot: 'only-on-failure',
   video: 'retain-on-failure',
-  headless: false,
+  headless: true,
 },
 
   /* Configure projects for major browsers */
